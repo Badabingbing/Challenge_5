@@ -283,3 +283,22 @@ hr {
     color: #24890d;
     text-decoration: none;
 }
+
+                  /*Menu with article (top content)*/
+
+.top-content {
+    padding-left: 222px; 
+}
+
+.article-content {
+    width: 33%;
+    float: left;
+}
+
+
+
+                /*Menu with article (mid content)*/
+
+.mid-content {
+    padding-top: 72px;
+}
