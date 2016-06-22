@@ -1,9 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
 body {
 	width: 100%
 	height: 100%;
 	margin: auto;
 }
 
-.nopad {
-	padding: 0;
+                                        /*Misc*/
+
+* {
+	font-family: 'Lato', sans-serif;
 }
+
+.nopad {
+    padding: 0 !important;
+}
+
+hr {
+    margin: 0;
+}
+
+                                         /*Navbar*/
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+    margin: 0 !important;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.nav-icon i {
+	font-size: initial;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	background-color: #24890d;
+	color: #ffffff;
+}
+
+.navbar-default {
+    background-color: #000000;
+    border: none;
+}
+
+.navbar-toggle {
+    float: right;
+    padding: 17px 12px;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+}
+
+.button-icon-search {
+	background-color: #24890d;
+    cursor: pointer;
+    float: right;
+    height: 50px;
+    margin-left: 1px;
+    margin-right: 38px;
+    text-align: center;
+    width: 48px;
+    font-size: initial;
+}
+
+.search-icon {
+	color: #ffffff;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	margin-left: -137px;
+	background-color: #24890d;
+}
+
+.navbar-default .navbar-nav > .open > a {
+	background-color: #24890d;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover {
+	background-color: #24890d;
+}
+
+.navbar-default .navbar-nav > .green > a {
+	color: #55d737;
+	font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: #24890d;
+	color: #ffffff;
+}
+
+                                    /*main*/
+
+.main {
+    margin-top: 50px;
+}
+
+.content-left {
+    background-color: #000000;
+    padding: 0 30px;
+    width: 220px;
+    float: left;
+}
+
+.description {
+    display: block;
+    margin: 0 0 18px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-indent: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+            /*Sidenav styles*/
+
+.side-nav {
+    width: 220px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.side-nav li {
+    text-indent: 30px;
+    line-height: 40px;
+}
+
+.side-nav li:hover {
+    background-color: #24890d;
+    color: #fff;
+}
+
+.active {
+    background-color: #24890d;
+    color: #fff;
+}
+
+.side-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.side-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-nav li a:active {
+    text-decoration: none;
+}
+
