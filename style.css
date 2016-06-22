@@ -16,6 +16,10 @@ body {
     padding: 0 !important;
 }
 
+.nomarg {
+    margin: 0 !important;
+}
+
 hr {
     margin: 0;
 }
@@ -27,6 +31,7 @@ hr {
 	font-size: 18px;
 	font-weight: 700;
     margin: 0 !important;
+    letter-spacing: -1px;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -102,7 +107,7 @@ hr {
 	color: #ffffff;
 }
 
-                                    /*main*/
+                                    /*main side*/
 
 .main {
     margin-top: 50px;
@@ -110,8 +115,6 @@ hr {
 
 .content-left {
     background-color: #000000;
-    padding: 0 30px;
-    width: 220px;
     float: left;
 }
 
@@ -121,23 +124,27 @@ hr {
     font-size: 12px;
     font-weight: 400;
     line-height: 1.5;
-    text-indent: 30px;
     color: rgba(255, 255, 255, 0.7);
+    padding: 0px 30px;
 }
 
 
             /*Sidenav styles*/
 
 .side-nav {
-    width: 220px;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .side-nav li {
-    text-indent: 30px;
     line-height: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.border-bot {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
 }
 
 .side-nav li:hover {
@@ -156,7 +163,8 @@ hr {
     color: #fff;
     text-transform: uppercase;
     font-size: 11px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0px 30px;
+    position: relative;
 }
 
 .side-nav li a:hover {
@@ -168,3 +176,110 @@ hr {
     text-decoration: none;
 }
 
+.side-icon {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    font-size: 18px !important;
+}
+
+.side-icon-word {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    font-size: 15px !important;
+}
+
+.secondary-content-left {
+    background-color: #000000;
+    float: left;
+    padding: 0px 30px;
+}
+
+.side-search {
+    font-size: 12px;
+    padding: 1px 2px 1px 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    height: initial;
+    border-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.side-aside-search {
+    margin-bottom: 48px;
+}
+
+.side-audiotheme {
+    margin-bottom: 48px;
+}
+
+.side-audiotheme img {
+    width: 100%;
+    height: 150px;
+}
+
+.h2-side-audiotheme {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+.release-text {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 9px 0 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.more-text-hovered {
+    margin-bottom: 18px;
+}
+
+.more-text-hovered a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.more-text-hovered a:hover {
+    color: #24890d;
+    text-decoration: none;
+}
+
+.side-menu {
+    margin-bottom: 48px;
+}
+
+.list-none {
+    list-style: none;
+    padding: 0;
+}
+
+.side-list {
+    padding: 0 0 6px;
+    margin: 0;
+}
+
+.description-end {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    width: 162px;
+}
+
+.description-end a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.description-end a:hover {
+    color: #24890d;
+    text-decoration: none;
+}
