@@ -1,0 +1,26 @@
+.img {
+	height: 400px;
+	background-color: blue;
+}
+
+.whitetext, .upcominggigs {
+	height: 750px;
+}
+
+.whitetext {
+	background-color: green;
+}
+
+.upcominggigs {
+	background-color: yellow;
+}
+
+.barre {
+	height: 1450px;
+	background-color: black;
+}
+
+.bas {
+	height: 50px;
+	background-color: yellow;
+}
