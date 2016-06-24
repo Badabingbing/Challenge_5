@@ -16,8 +16,16 @@ body {
     padding: 0 !important;
 }
 
+.mini-marg {
+    margin-right: 14px;
+}
+
 .nomarg {
     margin: 0 !important;
+}
+
+.mini-nopad-right {
+    padding-right: 0 !important;
 }
 
 hr {
@@ -73,7 +81,6 @@ hr {
     float: right;
     height: 50px;
     margin-left: 1px;
-    margin-right: 38px;
     text-align: center;
     width: 48px;
     font-size: initial;
@@ -116,6 +123,10 @@ hr {
 .content-left {
     background-color: #000000;
     float: left;
+}
+
+.main-content {
+    height: 1090px;
 }
 
 .description {
@@ -295,10 +306,41 @@ hr {
     float: left;
 }
 
+.article-title {
+    height: 120px;
+    background-color: #000;
+    color: #fff;
+}
 
+.rel-pos {
+    position: relative;
+}
+
+.abso-pos {
+    position: absolute;
+    bottom: 0;
+    width: 449px;
+}
+
+.img-omg {
+    height: 369px;
+    width: 449px;
+}
+
+.bricole-size {
+    height: 249px;
+    width: 449px;
+}
 
                 /*Menu with article (mid content)*/
 
 .mid-content {
     padding-top: 72px;
+}
+
+.mid-title-inner {
+    font-size: 33px;
+    font-weight: 300;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
 }
