@@ -6,7 +6,7 @@ body {
 	margin: auto;
 }
 
-                                        /*Misc*/
+                            /*Misc*/
 
 * {
 	font-family: 'Lato', sans-serif;
@@ -16,9 +16,9 @@ body {
     padding: 0 !important;
 }
 
-.mini-marg {
+/*.mini-marg {
     margin-right: 14px;
-}
+}*/
 
 .nomarg {
     margin: 0 !important;
@@ -32,7 +32,7 @@ hr {
     margin: 0;
 }
 
-                                         /*Navbar*/
+                            /*Navbar*/
 
 .navbar-default .navbar-brand {
 	color: #ffffff;
@@ -114,7 +114,7 @@ hr {
 	color: #ffffff;
 }
 
-                                    /*main side*/
+                            /*main side*/
 
 .main {
     margin-top: 50px;
@@ -140,7 +140,7 @@ hr {
 }
 
 
-            /*Sidenav styles*/
+                            /*Sidenav styles*/
 
 .side-nav {
     margin: 0;
@@ -298,7 +298,15 @@ hr {
                   /*Menu with article (top content)*/
 
 .top-content {
-    padding-left: 222px; 
+    padding-left: 222px;
+    display: block;
+    width: 1367px;
+}
+
+.top-content-inner {
+    display: inline-block;
+    height: 328px;
+    overflow: hidden;
 }
 
 .article-content {
@@ -318,18 +326,8 @@ hr {
 
 .abso-pos {
     position: absolute;
-    bottom: 0;
-    width: 449px;
-}
-
-.img-omg {
-    height: 369px;
-    width: 449px;
-}
-
-.bricole-size {
-    height: 249px;
-    width: 449px;
+    bottom: 45px;
+    width: 100%;
 }
 
                 /*Menu with article (mid content)*/
