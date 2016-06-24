@@ -77,13 +77,10 @@ hr {
 
 .button-icon-search {
 	background-color: #24890d;
-    cursor: pointer;
-    float: right;
     height: 50px;
     margin-left: 1px;
     text-align: center;
     width: 48px;
-    font-size: initial;
 }
 
 .search-icon {
@@ -93,6 +90,23 @@ hr {
 .navbar-nav > li > .dropdown-menu {
 	margin-left: -137px;
 	background-color: #24890d;
+    width: 1135px;
+    border-radius: 0;
+}
+
+.navbar-nav > li > .dropdown-menu > .form-inline {
+    float: right;
+    padding: 5px;
+}
+
+.search-navbar {
+    background-color: #fff;
+    border: 0;
+    float: right;
+    font-size: 16px;
+    padding: 2px 2px 3px 6px;
+    width: 324px !important;
+    height: 25px;
 }
 
 .navbar-default .navbar-nav > .open > a {
@@ -123,6 +137,20 @@ hr {
 .content-left {
     background-color: #000000;
     float: left;
+}
+
+@media screen and (max-width: 1080px) {
+    .content-left {
+        width: 100%;
+        position: absolute;
+        top: 1200px;
+    }
+
+    .secondary-content-left {
+        min-width: 100%;
+        position: absolute;
+        top: 800px;
+    }
 }
 
 .main-content {
@@ -318,6 +346,9 @@ hr {
     height: 120px;
     background-color: #000;
     color: #fff;
+    border-color: #000;
+    border-style: solid;
+    border-width: 12px 10px;
 }
 
 .rel-pos {
@@ -330,10 +361,58 @@ hr {
     width: 100%;
 }
 
+.entry-cat {
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.entry-cat a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.entry-cat a:hover {
+    color: #24890d;
+}
+
+.entry-title {
+    font-size: 18px;
+    font-weight: 300 !important;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.entry-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.entry-title a:hover {
+    color: #24890d;
+}
+
                 /*Menu with article (mid content)*/
 
 .mid-content {
     padding-top: 72px;
+}
+
+.mid-content-inner {
+    margin-left: 222px;
+    margin-right: 33%;
+}
+
+.first-article-mid {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-title {
+    padding: 0 30px 10px 105px;
 }
 
 .mid-title-inner {
@@ -341,4 +420,28 @@ hr {
     font-weight: 300;
     margin: 0 0 12px 0;
     text-transform: uppercase;
+    width: 81%;
+}
+
+.mid-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-audio {
+    margin-bottom: 24px;
+}
+
+.p-audio {
+    width: 69%;
+    font-size: 16px;
+}
+
+.text-hover {
+    color: #24890d;
+}
+
+.text-hover:hover {
+    color: #24890d;
 }
