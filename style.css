@@ -1,3 +1,8 @@
+.nopadding {
+	padding: 0;
+
+}
+
 .img {
 	height: 400px;
 	background-color: blue;
@@ -16,11 +21,11 @@
 }
 
 .barre {
-	height: 1450px;
+	height: 750px;
 	background-color: black;
 }
 
 .bas {
 	height: 50px;
-	background-color: yellow;
+	background-color: pink;
 }
