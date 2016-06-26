@@ -280,6 +280,11 @@ body {
 	background-size: cover; 
 }
 
+.img1:hover, .img2:hover, .img3:hover {
+	opacity: 0.9;
+}
+
+
 .img1 {
 	background:url(images/nowell-featured-image-1038x576.jpg);
 }
@@ -293,14 +298,35 @@ body {
 }
 
 .bandenoire {
-	height: 100px;
+	height: 115px;
 	background-color: black;
 	color: white;	
 	padding-right: 2%;
 	padding-left: 3%;
-	padding-top: 15px;
+	padding-top: 10px;
 	text-transform: uppercase;
 }
+
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #24890d;
+	text-decoration: none;
+}
+
+h4 {
+	font-weight: 300;
+	line-height: 1.15;
+}
+
+h5 {
+	margin-top: 0;
+	font-size: 11px;
+	font-weight: 700;
+}
+
 
 /*end*/
 
