@@ -353,8 +353,10 @@ p a:hover {
 	opacity: 0.8;
 }
 
-.whiteleft {
-text-align: center;
+.white {
+padding-top: 72px;
+padding-left: 0;
+padding-right: 0;
 }
 
 .centre {
@@ -370,6 +372,34 @@ text-align: center;
 h1 {
 	font-weight: 300;
 	padding-bottom: 20px;
+}
+
+.titleright {
+    font-weight: 900;
+    font-size:14px;
+    border-top: 5px solid #000;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+dl dt a {
+color: #24890d;
+font-weight: 400;
+}
+
+dl dt a:hover {
+    opacity: 0.8;
+}
+
+dl, #fontgrise {
+    color: #939393;
+}
+
+#fontgrise {
+    font-size: 12px;
+    padding-top: 12px;
 }
 
 .audiotheme {
