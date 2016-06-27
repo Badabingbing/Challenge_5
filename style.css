@@ -113,6 +113,14 @@ body {
 
                             /*Sidenav styles*/
 
+.description {
+    margin: 50px 0 20px 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0px 30px;
+}
+
+
 .side-nav {
     margin: 0;
     padding: 0;
