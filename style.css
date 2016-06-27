@@ -348,12 +348,17 @@ p a:hover {
 }
 
 .whiteleft {
-	margin: 75px;
+text-align: center;
+}
+
+.centre {
+    width: 80%;
+    margin: auto;
 }
 
 .video{
 	height:267px;
-	width:80%;
+	width:100%;
 }
 
 h1 {
