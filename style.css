@@ -1,38 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
-
 body {
-	width: 100%
-	height: 100%;
-	margin: auto;
-}
-
-                            /*Misc*/
-
-* {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato';
 }
 
 .nopad {
     padding: 0 !important;
 }
 
-/*.mini-marg {
-    margin-right: 14px;
-}*/
+.mini-nopad-right {
+    padding-right: 0 !important;
+}
+
 
 .nomarg {
     margin: 0 !important;
 }
 
-.mini-nopad-right {
-    padding-right: 0 !important;
-}
-
-hr {
-    margin: 0;
-}
-
-                            /*Navbar*/
+/*Navbar*/
 
 .navbar-default .navbar-brand {
 	color: #ffffff;
@@ -128,47 +111,14 @@ hr {
 	color: #ffffff;
 }
 
-                            /*main side*/
-
-.main {
-    margin-top: 50px;
-}
-
-.content-left {
-    background-color: #000000;
-    float: left;
-}
-
-@media screen and (max-width: 1080px) {
-    .content-left {
-        width: 100%;
-        position: absolute;
-        top: 1200px;
-    }
-
-    .secondary-content-left {
-        min-width: 100%;
-        position: absolute;
-        top: 800px;
-    }
-}
-
-.main-content {
-    height: 1090px;
-}
+                            /*Sidenav styles*/
 
 .description {
-    display: block;
-    margin: 0 0 18px;
+    margin: 50px 0 20px 0;
     font-size: 12px;
-    font-weight: 400;
-    line-height: 1.5;
     color: rgba(255, 255, 255, 0.7);
     padding: 0px 30px;
 }
-
-
-                            /*Sidenav styles*/
 
 .side-nav {
     margin: 0;
@@ -230,8 +180,6 @@ hr {
 }
 
 .secondary-content-left {
-    background-color: #000000;
-    float: left;
     padding: 0px 30px;
 }
 
@@ -255,7 +203,7 @@ hr {
 
 .side-audiotheme img {
     width: 100%;
-    height: 150px;
+    height: auto;
 }
 
 .h2-side-audiotheme {
@@ -290,7 +238,7 @@ hr {
 }
 
 .side-menu {
-    margin-bottom: 48px;
+    margin-bottom: 100px;
 }
 
 .list-none {
@@ -302,6 +250,7 @@ hr {
     padding: 0 0 6px;
     margin: 0;
 }
+
 
 .description-end {
     display: block;
@@ -323,125 +272,124 @@ hr {
     text-decoration: none;
 }
 
+
                   /*Menu with article (top content)*/
 
-.top-content {
-    padding-left: 222px;
-    display: block;
-    width: 1367px;
-}
-
-.top-content-inner {
-    display: inline-block;
-    height: 328px;
-    overflow: hidden;
-}
-
-.article-content {
-    width: 33%;
-    float: left;
-}
-
-.article-title {
-    height: 120px;
-    background-color: #000;
-    color: #fff;
-    border-color: #000;
-    border-style: solid;
-    border-width: 12px 10px;
-}
-
-.rel-pos {
-    position: relative;
-}
-
-.abso-pos {
-    position: absolute;
-    bottom: 45px;
-    width: 100%;
-}
-
-.entry-cat {
-    font-size: 11px;
-    font-weight: 700;
-    margin-bottom: 12px;
-    text-transform: uppercase;
-}
-
-.entry-cat a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.entry-cat a:hover {
-    color: #24890d;
-}
-
-.entry-title {
-    font-size: 18px;
-    font-weight: 300 !important;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.entry-title a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.entry-title a:hover {
-    color: #24890d;
-}
-
-                /*Menu with article (mid content)*/
-
-.mid-content {
-    padding-top: 72px;
-}
-
-.mid-content-inner {
-    margin-left: 222px;
-    margin-right: 33%;
-}
-
-.first-article-mid {
+.centre {
+    width: 70%;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.mid-title {
-    padding: 0 30px 10px 105px;
+.img1, .img2, .img3 {
+	height: 250px;
+	max-width:100vw, 346px;
+	background-repeat: no-repeat;
+	background-size: cover; 
 }
 
-.mid-title-inner {
-    font-size: 33px;
-    font-weight: 300;
-    margin: 0 0 12px 0;
-    text-transform: uppercase;
-    width: 81%;
+.img1:hover, .img2:hover, .img3:hover {
+	opacity: 0.8;
 }
 
-.mid-post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.img1 {
+	background:url(images/nowell-featured-image-1038x576.jpg);
 }
 
-.mid-audio {
-    margin-bottom: 24px;
+.img2 {
+	background:url(images/rodney-hayden-atascosa-sand.jpg)
 }
 
-.p-audio {
-    width: 69%;
-    font-size: 16px;
+.img3 {
+	background:url(images/322267385_640.jpg);
 }
 
-.text-hover {
-    color: #24890d;
+.bandenoire {
+	height: 115px;
+	background-color: black;
+	color: white;	
+	padding-right: 2%;
+	padding-left: 3%;
+	padding-top: 10px;
+	text-transform: uppercase;
 }
 
-.text-hover:hover {
-    color: #24890d;
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #24890d;
+	text-decoration: none;
+}
+
+h4 {
+	font-weight: 300;
+	line-height: 1.15;
+}
+
+h5 {
+	margin-top: 0;
+	font-size: 11px;
+	font-weight: 700;
+}
+
+/*divs blanches */
+
+
+.white {
+	background-color: white;
+	height: 100vh;
+}
+
+.white p {
+	padding-top:30px;
+	font-size:16px;
+}
+
+p a {
+	color: #24890d;
+	text-decoration: underline;
+}
+
+p a:hover {
+	opacity: 0.8;
+}
+/*.whiteleft {
+	margin: 75px;
+}*/
+
+.whiteleft {
+text-align: center;
+}
+
+.centre {
+    width: 70%;
+    margin: auto;
+}
+
+.video{
+	height:267px;
+	width:100%;
+}
+
+h1 {
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+
+.audiotheme {
+	background: url(images/audiotheme-overview-video-thumbnail.jpg);
+	background-repeat :no-repeat;
+	background-size: cover;
+	height: 200px;
+}
+
+.barre {
+	background-color: black;
+}
+
+.bas {
+	height: 50px;
+	background-color: black;
 }
