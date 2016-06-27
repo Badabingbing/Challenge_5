@@ -175,7 +175,7 @@ body {
 .secondary-content-left {
     background-color: #000000;
     float: left;
-    padding: 0px 30px;
+    padding: 0;
 }
 
 .side-search {
