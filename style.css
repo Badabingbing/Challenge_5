@@ -417,3 +417,13 @@ dl, #fontgrise {
 	height: 50px;
 	background-color: black;
 }
+
+.bas a {
+    color: #939393;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bas a:hover {
+    color: #24890d;
+}
